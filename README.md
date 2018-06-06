@@ -22,4 +22,7 @@ Supports:
  
  "sudo python rasp-connect.py"
  
+ Once finished Just Reboot and should Be Connected
+
  Tested on Raspbian-Lite
+
