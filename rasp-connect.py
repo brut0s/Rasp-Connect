@@ -12,7 +12,7 @@ class bcolors:
     WARNING = "\033[93m"
 	
 	
-print bcolors.GREEN + """
+print """
  ____                        ____                            _   
 |  _ \ __ _ ___ _ __        / ___|___  _ __  _ __   ___  ___| |_ 
 | |_) / _` / __| '_ \ _____| |   / _ \| '_ \| '_ \ / _ \/ __| __|
@@ -20,7 +20,7 @@ print bcolors.GREEN + """
 |_| \_\__,_|___/ .__/       \____\___/|_| |_|_| |_|\___|\___|\__|
                |_|  
 
-""" + bcolors.ENDC
+"""
 		
 def print_menu():
     print "-----------------------------------------------"
@@ -31,7 +31,7 @@ def print_menu():
     print "[3]. WPA"
     print "[4]. WPA2"
     print "[5]. View Sample for wpa_supplicant.conf"
-    print "[6]. Return to Main Menu" + bcolors.ENDC
+    print "[6]. Exit" + bcolors.ENDC
     print "################################################"
     print "------------------------------------------------"
 
@@ -80,7 +80,7 @@ while loop:
 
     elif choice==6:
 
-        #print bcolors.GREEN + "\nThanks for using RaspN3t" + bcolors.ENDC
+        print bcolors.GREEN + "\nThanks for using Rasp-Connect" + bcolors.ENDC
         loop=False
 
 
