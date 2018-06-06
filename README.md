@@ -17,5 +17,7 @@ Supports:
  To run:
  
  "git clone https://github.com/brut0s/Rasp-Connect"
- cd /Rasp-Connect
- sudo python rasp-connect.py
+ 
+ "cd /Rasp-Connect"
+ 
+ "sudo python rasp-connect.py"
