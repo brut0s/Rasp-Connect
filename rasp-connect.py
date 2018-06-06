@@ -43,46 +43,29 @@ while loop:
 
     if choice==1:
 
-	import clear
 	import modules.open
-	import clear
-
 
     elif choice==2:
 
-	import clear
 	import modules.wep
-	import clear
-
 
     elif choice==3:
 
-	import clear
         import modules.wpa
-        import clear
-
 
     elif choice==4:
 
-	import clear
 	import modules.wpa2
-	import clear
-
 
     elif choice==5:
 
-
         import modules.wpa_supplicant
         cont = raw_input(bcolors.WARNING + "\n[!]...Press 'Return' to Continue") + bcolors.ENDC
-	import clear
-
-
 
     elif choice==6:
 
         print bcolors.GREEN + "\nThanks for using Rasp-Connect" + bcolors.ENDC
         loop=False
-
 
     else:
 
