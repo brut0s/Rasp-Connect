@@ -2,7 +2,7 @@
 Easy python Script to Connect Rapbian to a Wifi Network Using Python.
 
 
-Connnect To Wireless Network with Ease with Rasp-Connect.
+Connnect To Wireless Network with Ease through CLI/SSH with Rasp-Connect.
 
 Supports:
 
@@ -21,3 +21,5 @@ Supports:
  "cd /Rasp-Connect"
  
  "sudo python rasp-connect.py"
+ 
+ Tested on Raspbian-Lite
