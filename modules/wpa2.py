@@ -12,7 +12,6 @@ class bcolors:
     GREEN = "\033[0;32m"
     WARNING = "\033[93m"
 
-
 print bcolors.WARNING + "\n" + bcolors.ENDC
 
 ssid = raw_input("\nEnter the 'SSID' of the WPA2 Network, you want to Connect to: ")
@@ -33,7 +32,6 @@ network = {
     key_mgmt=WPA-PSK
     psk="%s"
 }""" % (ssid, password)
-
 
 filepath = "/etc/wpa_supplicant/wpa_supplicant.conf"
 
