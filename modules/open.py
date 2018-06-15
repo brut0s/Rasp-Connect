@@ -25,6 +25,9 @@ ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 
 network = {
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
     ssid="%s"
     scan_ssid=1
     key_mgmt=NONE
