@@ -12,7 +12,6 @@ class bcolors:
     GREEN = "\033[0;32m"
     WARNING = "\033[93m"
 
-
 print bcolors.WARNING + "\n[!]. Setting Up 'OPEN' Wifi Connection" + bcolors.ENDC
 
 ssid = raw_input(bcolors.WARNING + "\n[!]. Enter the 'SSID' of the Open Network, you want to Connect to: ") + bcolors.ENDC
@@ -30,7 +29,6 @@ network = {
     scan_ssid=1
     key_mgmt=NONE
 }""" % ssid
-
 
 filepath = "/etc/wpa_supplicant/wpa_supplicant.conf"
 
