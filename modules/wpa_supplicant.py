@@ -3,16 +3,14 @@
 #
 
 print """
-
-
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
 ####################################
 # Sample Config for wpa_supplicant #
 #                                  #
 #        Path to Config:           #
 #   /etc/network/wpa_supplicant    #
 ####################################
-
-
 
 # Example Open
 
@@ -21,7 +19,6 @@ network={
     scan_ssid=1
     key_mgmt=NONE
 }
-
 
 
 # Example WEP
@@ -34,7 +31,6 @@ network={
 }
 
 
-
 # Example WPA
 
 network={
@@ -43,7 +39,6 @@ network={
     key_mgmt=WPA-PSK
     psk=""
 }
-
 
 
 # Example WPA2
