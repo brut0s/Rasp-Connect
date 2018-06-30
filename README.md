@@ -32,3 +32,10 @@ Supports:
  Upon every Time you run the program to Connect to Wireless Network it Removes Existing Wpa_supplicant file and Replaces it
  with a new one.
 
+To Use the Script Without Internet Access:
+
+Download the Zip file and extract to external usb and transfer to the Raspberry Pi.
+
+then "cd Rasp-Connect"
+
+"sudo python rasp-connect.py"
