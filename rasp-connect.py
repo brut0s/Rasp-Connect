@@ -71,8 +71,6 @@ while loop:
         import modules.wpa_supplicant
     	print bcolors.WARNING + "\n[!]. Rebooting For Changes to Take Effect." + bcolors.ENDC
         cont = raw_input("\n[!]...Press 'Return' to Continue: ")
-        os.system("sudo reboot now")	
-        cont = raw_input(bcolors.WARNING + "\n[!]...Press 'Return' to Continue") + bcolors.ENDC
 
     elif choice==6:
 
