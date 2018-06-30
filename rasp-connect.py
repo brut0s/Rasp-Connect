@@ -18,9 +18,7 @@ print """
 |  _ < (_| \__ \ |_) |_____| |__| (_) | | | | | | |  __/ (__| |_ 
 |_| \_\__,_|___/ .__/       \____\___/|_| |_|_| |_|\___|\___|\__|
                |_|  
-
-"""
-		
+"""		
 def print_menu():
     print "-----------------------------------------------"
     print "Select One of the Following Wireless Encryption"
@@ -43,22 +41,37 @@ while loop:
     if choice==1:
 
 	import modules.open
+	print bcolors.WARNING + "\n[!]. Rebooting For Changes to Take Effect." + bcolors.ENDC
+        cont = raw_input("\n[!]...Press 'Return' to Continue: ")
+        os.system("sudo reboot now")
 
     elif choice==2:
 
 	import modules.wep
-
+    	print bcolors.WARNING + "\n[!]. Rebooting For Changes to Take Effect." + bcolors.ENDC
+        cont = raw_input("\n[!]...Press 'Return' to Continue: ")
+        os.system("sudo reboot now")
+	
     elif choice==3:
 
         import modules.wpa
-
+    	print bcolors.WARNING + "\n[!]. Rebooting For Changes to Take Effect." + bcolors.ENDC
+        cont = raw_input("\n[!]...Press 'Return' to Continue: ")
+        os.system("sudo reboot now")
+	
     elif choice==4:
 
 	import modules.wpa2
-
+    	print bcolors.WARNING + "\n[!]. Rebooting For Changes to Take Effect." + bcolors.ENDC
+        cont = raw_input("\n[!]...Press 'Return' to Continue: ")
+        os.system("sudo reboot now")
+	
     elif choice==5:
 
         import modules.wpa_supplicant
+    	print bcolors.WARNING + "\n[!]. Rebooting For Changes to Take Effect." + bcolors.ENDC
+        cont = raw_input("\n[!]...Press 'Return' to Continue: ")
+        os.system("sudo reboot now")	
         cont = raw_input(bcolors.WARNING + "\n[!]...Press 'Return' to Continue") + bcolors.ENDC
 
     elif choice==6:
