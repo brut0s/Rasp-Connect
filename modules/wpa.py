@@ -26,16 +26,16 @@ net = """
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 
-network = {
+network={
     ssid="%s"
-    scan_ssid=1
-    key_mgmt=WPA-PSK
     psk="%s"
-}""" % (ssid, password)
+    key_mgmt=WPA-PSK
+}
+
+""" % (ssid, password)
 
 filepath = "/etc/wpa_supplicant/wpa_supplicant.conf"
 
 wifi = open(filepath, "w")
 wifi.write(net)
 wifi.close()
-
